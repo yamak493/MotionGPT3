@@ -110,6 +110,15 @@ Visit [the Hugging Face](https://huggingface.co/OpenMotionLab/motiongpt3) to dow
 ## ▶️ Demo
 
 <details open>
+  <summary><b>Google Colab (text-to-motion, inference only)</b></summary>
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yamak493/MotionGPT3/blob/main/notebooks/MotionGPT3_text2motion_colab.ipynb)
+
+[`notebooks/MotionGPT3_text2motion_colab.ipynb`](notebooks/MotionGPT3_text2motion_colab.ipynb) generates motion from text on a free T4 GPU and plays a skeleton preview in the notebook. It downloads the packaged checkpoint [`ZeyuLing/Motius-MotionGPT3-HumanML3D`](https://huggingface.co/ZeyuLing/Motius-MotionGPT3-HumanML3D) and runs it with [Motius](https://github.com/ZeyuLing/Motius), so none of the setup steps above are needed.
+
+</details>
+
+<details open>
   <summary><b>Webui</b></summary>
 
 Run the following script to launch webui, then visit [0.0.0.0:8888](http://0.0.0.0:8888)
